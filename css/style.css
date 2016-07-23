@@ -31,8 +31,8 @@ li{
 }
 div.banner{
   background-image:url(../img/banner-bg.jpg);
-  width:980px;
-  height:430px;
+  width:100%;
+  height:100%;
 
 }
 .bgtext{
