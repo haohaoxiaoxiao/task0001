@@ -27,9 +27,10 @@ li{
 .github{
   float:right;
   width:20px;
+  margin-top:40px;
 }
 .banner{
-  background-img:url(/img/banner-bg.jpg);
+  background-image:url(/img/banner-bg.jpg);
   width:100%;
 }
 .bgtext{
