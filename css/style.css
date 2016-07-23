@@ -53,6 +53,7 @@ div.left, .mid, .right{
   padding:0;
   margin-right:10px;
   background-color:white;
+  float:left;
 }
 .left img, .mid img, .right img{
   width:300px;
