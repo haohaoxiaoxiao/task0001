@@ -53,7 +53,7 @@ div.banner{
 div.left, .mid, .right{
   width:320px;
   padding:0;
-  margin-right:10px;
+  margin:0;
   background-color:white;
   float:left;
 }
