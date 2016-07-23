@@ -32,11 +32,11 @@ li{
 .banner{
   background-image:url(../img/banner-bg.jpg);
   width:100%;
-  overflow:hidden;
+ 
 }
 .bgtext{
   background-color:white;
   width:400px;
   padding:10px 10px 30px 10px;
-  position:580px;
+  
 }
