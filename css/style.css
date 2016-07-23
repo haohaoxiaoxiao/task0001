@@ -1,5 +1,6 @@
 body{
   width:980px;
+  align:center;
 }
 #navbar{
   width:100%;
@@ -21,8 +22,17 @@ li{
   margin:56px 0 0 0;
   padding:5px 14px;
   float:right;
+  text-decoration:none;
 }
 .github{
   float:right;
   width:20px;
+}
+.banner{
+  background-img:url(/img/banner-bg.jpg);
+  width:100%;
+}
+.bgtext{
+  background-color:white;
+  
 }
