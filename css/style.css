@@ -1,1 +1,24 @@
-
+#navbar{
+  width:100%;
+  height:80px;
+  background-color:#ff0000;
+}
+.logo{
+  font-family:arial;
+  font-size:40px;
+  margin-bottom:0;
+  padding-bottom:5px;
+  float:left;
+}
+ul{
+  display:block;
+  list-style-type:none;
+  font-family:宋体;
+  font-size:14px;
+  margin:0;
+  padding:5px 14px;
+  float:right;
+}
+.github{
+  float:right;
+}
