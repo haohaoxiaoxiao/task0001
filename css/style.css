@@ -33,6 +33,8 @@ div.banner{
   background-image:url(../img/banner-bg.jpg);
   width:100%;
  background-position:top;
+ overflow:hidden;
+ boder:1px solid black;
 
 }
 .bgtext{
