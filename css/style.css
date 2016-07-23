@@ -41,7 +41,7 @@ div.banner{
   width:400px;
   padding:10px 10px 30px 10px;
   opacity:0.6;
-  position:relative;
+  position:absolute;
   right:0;
   bottom:0;
   
@@ -69,4 +69,22 @@ div.left, .mid, .right{
   margin:0;
   padding:15px 30px 25px;
   
+}
+.selfintro img{
+  border-radius:80px;
+  align:center;
+  margin-top:-50px;
+  margin-bottom:50px;
+  padding:0;
+}
+.selfintro h3{
+  text-align:center;
+  font:20px Century Gothic black;
+  display:block;
+}
+.selfintro p{
+  display:block;
+  width:600px;
+  font:14px black;
+  text-align:center;
 }
