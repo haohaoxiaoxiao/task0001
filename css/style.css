@@ -29,11 +29,11 @@ li{
   width:20px;
   padding:40px;
 }
-.banner{
+div.banner{
   background-image:url(../img/banner-bg.jpg);
   width:100%;
  background-position:top;
- border:1px solid black;
+
 }
 .bgtext{
   background-color:white;
