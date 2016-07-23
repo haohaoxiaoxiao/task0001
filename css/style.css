@@ -30,7 +30,7 @@ li{
   padding:40px;
 }
 .banner{
-  background-image:url(img/banner-bg.jpg);
+  background-image:url(../img/banner-bg.jpg);
   width:100%;
   overflow:hidden;
 }
