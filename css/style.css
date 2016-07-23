@@ -41,9 +41,9 @@ div.banner{
   width:400px;
   padding:10px 10px 30px 10px;
   opacity:0.6;
-  position:absolute;
-  right:0;
-  bottom:0;
+  position:relative;
+  left:580px;
+  top:200px;
   
 }
 .three{
