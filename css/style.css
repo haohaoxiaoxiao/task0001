@@ -30,10 +30,9 @@ li{
   padding:40px;
 }
 div.banner{
-  background-image:url(../img/banner-bg.jpg);
+  background-image:url(/img/banner-bg.jpg);
   width:980px;
- background-position:top;
- boder:1px solid black;
+  display:block;
 
 }
 .bgtext{
