@@ -43,3 +43,26 @@ div.banner{
   padding:10px 10px 30px 10px;
   
 }
+.three{
+  width:980px;
+  margin:0;
+  padding-top:10px;
+}
+div.left, .mid, .right{
+  width:320px;
+  padding:0;
+  margin-right:10px;
+  background-color:white;
+}
+.left img, .mid img, .right img{
+  width:300px;
+  height:180px;
+  padding:0;
+  margin:0;
+}
+.left p, .mid p, .right p{
+  font-size:12px;
+  margin:0;
+  padding:15px 30px 25px;
+  
+}
