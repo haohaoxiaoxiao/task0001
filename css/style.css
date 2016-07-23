@@ -32,6 +32,7 @@ li{
 div.banner{
   background-image:url(../img/banner-bg.jpg);
   width:100%;
+  height:100%;
  background-position:top;
  overflow:hidden;
  boder:1px solid black;
@@ -41,6 +42,7 @@ div.banner{
   background-color:white;
   width:400px;
   padding:10px 10px 30px 10px;
+  opacity:0.6;
   
 }
 .three{
