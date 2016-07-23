@@ -28,6 +28,7 @@ li{
   float:right;
   width:20px;
   margin-top:40px;
+  padding:40px;
 }
 .banner{
   background-image:url(/img/banner-bg.jpg);
