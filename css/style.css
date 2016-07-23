@@ -32,7 +32,7 @@ li{
 div.banner{
   background-image:url(../img/banner-bg.jpg);
   width:980px;
-  display:block;
+  height:800px;
 
 }
 .bgtext{
