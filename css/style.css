@@ -1,12 +1,18 @@
 body{
-  width:980px;
-  margin:0 auto;
+  
   background-color:gray;
 }
-#navbar{
+
+.header{
   width:100%;
   height:80px;
-  background-color:#ff0000;
+  background-color:red;
+  overflow:hidden;
+}
+.navbar{
+  overflow:hidden;
+  width:980px;
+  margin:0 auto;
 }
 .logo{
   font-family:arial;
@@ -20,9 +26,11 @@ li{
   list-style-type:none;
   font-family:宋体;
   font-size:14px;
-  margin:56px 0 0 0;
-  padding:5px 14px;
+  margin:40px 10px 0 0;
   float:right;
+  
+}
+.menu a{
   text-decoration:none;
 }
 .github{
@@ -30,13 +38,18 @@ li{
   width:20px;
   padding:40px;
 }
-div.banner{
-  background-image:url(../img/banner-bg.jpg);
+.banner{
+  padding:0;
+  margin:0;
+}
+.banner img{
   width:100%;
-  height:450px;
-  background-size:cover;
+  height:100%;
+}
+.style{
+  width:980px;
+  margin:0 auto;
   position:relative;
-
 }
 .bgtext{
   background-color:white;
@@ -45,54 +58,106 @@ div.banner{
   opacity:0.6;
   position:absolute;
   right:0;
-  bottom:0;
-  
+  bottom:0px;}
+
+.bgtext .biaoti{
+  float:right;
+}
+.zw{
+  float:left;
+}
+.maintext{
+  width:980px;
+  margin:0 auto;
 }
 .three{
   width:980px;
   padding-top:10px;
   margin-bottom:100px;
+  overflow:hidden;
+}
+.left{
+  margin-right:5px;
+}
+.mid{
+  margin:0 5px;
+}
+.right{
+  margin-left:5px;
 }
 div.left, .mid, .right{
+  
   width:320px;
   padding:0;
-  margin:0;
   background-color:white;
   float:left;
 }
+
 .left img, .mid img, .right img{
   width:300px;
   height:180px;
   padding:0;
-  margin:0;
+  margin:10px 0 0 10px;
 }
 .left p, .mid p, .right p{
   font-size:12px;
+  line-height: 170%
   margin:0;
   padding:15px 30px 25px;
   
 }
-.three.clear{
-  clear:both;
-}
+
 .selfintro{
   margin:50px auto;
+  background-color:white;
+  position:relative;
+  overflow:visible;
+  padding-bottom: 10px;
 }
-.selfintro img{
+.kevin{
+
   border-radius:80px;
   width:160px;
-  text-align:center;
-  margin-top:-50px;
+  border:2px solid red;
   margin-bottom:50px;
   padding:0;
+  display:block;
+  position:absolute;
+  left:410px;
+  top:-50px;
 }
+
 .selfintro h3{
-  width:600px;
+  width:220px;
   font:20px "Century Gothic" black;
-  margin:0 auto;
+  margin:180px auto 50px auto;
 }
 .selfintro p{
   width:600px;
   font:14px black;
   margin:0 auto;
+  line-height:150%;
+}
+.footer{
+  background-color:red;
+  margin:0 auto;
+  padding:0;
+  overflow:hidden;
+  text-align:center;
+}
+.menu2{
+  display:inline-block;
+  padding:0;
+  margin-top:-70px;
+  margin-bottom:-10px;
+}
+.last ul{
+  display:block;
+  text-decoration: none;
+  list-style-type:none;
+  width:120px;
+  float:left;
+
+
+  line-height: 1%;
 }
