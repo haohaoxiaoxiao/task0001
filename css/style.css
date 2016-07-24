@@ -83,13 +83,13 @@ div.left, .mid, .right{
   padding:0;
 }
 .selfintro h3{
-  text-align:center;
   font:20px Century Gothic black;
   display:block;
+  margin:0 auto;
 }
 .selfintro p{
   display:block;
   width:600px;
   font:14px black;
-  text-align:center;
+  margin:0 auto;
 }
