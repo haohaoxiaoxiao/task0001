@@ -52,6 +52,7 @@ div.banner{
   margin:0;
   padding-top:10px;
   margin-bottom:100px;
+  background-color:gray;
 }
 div.left, .mid, .right{
   width:320px;
