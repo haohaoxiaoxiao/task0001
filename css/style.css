@@ -51,6 +51,7 @@ div.banner{
   width:980px;
   margin:0;
   padding-top:10px;
+  margin-bottom:100px;
 }
 div.left, .mid, .right{
   width:320px;
@@ -83,12 +84,10 @@ div.left, .mid, .right{
   padding:0;
 }
 .selfintro h3{
-  font:20px Century Gothic black;
-  display:block;
+  font:20px "Century Gothic" black;
   margin:0 auto;
 }
 .selfintro p{
-  display:block;
   width:600px;
   font:14px black;
   margin:0 auto;
