@@ -73,6 +73,9 @@ div.left, .mid, .right{
   padding:15px 30px 25px;
   
 }
+.three.clear{
+  clear:both;
+}
 .selfintro{
   margin:10px auto;
 }
