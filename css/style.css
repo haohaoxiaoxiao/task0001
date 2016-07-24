@@ -71,9 +71,12 @@ div.left, .mid, .right{
   padding:15px 30px 25px;
   
 }
+.selfintro{
+  margin:10px auto;
+}
 .selfintro img{
   border-radius:80px;
-  align:center;
+  text-align:center;
   margin-top:-50px;
   margin-bottom:50px;
   padding:0;
