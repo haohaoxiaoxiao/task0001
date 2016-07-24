@@ -50,7 +50,6 @@ div.banner{
 }
 .three{
   width:980px;
-  margin:0;
   padding-top:10px;
   margin-bottom:100px;
 }
@@ -77,7 +76,7 @@ div.left, .mid, .right{
   clear:both;
 }
 .selfintro{
-  margin:10px auto;
+  margin:50px auto;
 }
 .selfintro img{
   border-radius:80px;
