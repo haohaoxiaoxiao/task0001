@@ -87,6 +87,7 @@ div.left, .mid, .right{
   padding:0;
 }
 .selfintro h3{
+  width:600px;
   font:20px "Century Gothic" black;
   margin:0 auto;
 }
