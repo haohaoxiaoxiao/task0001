@@ -76,6 +76,7 @@ div.left, .mid, .right{
 }
 .selfintro img{
   border-radius:80px;
+  width:160px;
   text-align:center;
   margin-top:-50px;
   margin-bottom:50px;
