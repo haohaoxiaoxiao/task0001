@@ -1,0 +1,168 @@
+
+
+.main{
+  width:980px;
+  height:auto;
+  margin:0 auto;
+  background-color: ;
+}
+.main .left{
+  width:660px;
+  height: inherit;
+  float:left;
+  margin-top:10px;
+  margin-left:-80px;/*这是为什么???????????????????????*/
+
+}
+.article-block{
+  width:600px;/*指内容宽度，不包含padding border margin*/
+  margin-right:10px;/*margin不继承内容的背景色*/
+  margin-bottom:10px;
+  height:400px;
+  line-height:150%;
+  padding:25px;/*padding继承内容的背景色*/
+  background-color:white;
+  position:relative;
+}
+.article-tags{
+  position:absolute;
+
+  left:-52px;
+}
+.article-tags ul{
+  list-style-type: none;
+  text-align:center;
+  padding:7px 0;
+  margin:10px 0;
+}
+.article-tags li{
+  width:50px;
+  height:40px;
+  padding-top:10px;
+  margin:0 auto;
+  font-family:arial;
+  color:white;
+  background-color:red;
+  border:1px solid gray;
+}
+.article-block h1{
+  font-size: 16px;
+  color:#009999;
+  margin-bottom:20px;
+}
+.article-block h2{
+  font-size: 12px;
+  color:#5ED2B8;
+  margin-bottom:20px;
+}
+.article-block p{
+  font-size:12px;
+  text-indent: 2em;
+}
+.article-block .date{
+  position:absolute;
+  right:25px;
+  bottom:0;
+}
+.page-number{
+  text-align:center;
+  font-size: 0;
+    letter-spacing: -4px;
+    word-spacing: -4px;
+}
+.page-number ul{
+  list-style-type: none;
+  margin-bottom:100px;
+}
+.page-number li{
+      margin: 0 7.5px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 12px;
+}
+.page-number a{
+      display: block;
+    color: #000;
+    padding: 15px;
+    background-color: #fff;
+    font-family: "Microsoft Yahei";
+}
+.page-number a:hover{
+  color:white;
+  background-color:red;
+}
+
+.right{
+  width:320px;
+  height:auto;
+  height:inherit;
+  float:left;
+  margin:10px auto;
+}
+.search{
+  width:320px;
+  height:80px;
+  background-color: white;
+}
+.search input{
+  height:40px;
+  padding:0;
+  margin:0;
+}
+.search button{
+  height:40px;
+  width:40px;
+  padding:0;
+  margin:0;
+}
+.catalog{
+  margin:10px 0;
+}
+.catalog ul{
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+.catalog a{
+  text-decoration: none;
+  padding:0 0 0 20px;
+  font-family: arial;
+}
+.catalog li{
+  width:317px;
+  background-color: white;
+  padding:10px 0 ;
+  border-top:1px solid gray;
+  border-left:3px solid gray;
+}
+.catalog li:hover{
+  border-left-color:red;
+}
+.calender{
+  width:320px;
+  margin:0 auto;
+  background-color: white;
+}
+.calender table{
+  font-size: 25px;
+  text-align: center;
+  margin:0 auto;
+}
+.calender td{
+  border-bottom:1px solid gray;
+  padding:5px;
+}
+
+.blog-tags{
+  width:320px;
+  background-color: white;
+  overflow: hidden;
+  margin-top:10px;
+}
+.blog-tags p{
+  float:left;
+  padding:5px;
+}
