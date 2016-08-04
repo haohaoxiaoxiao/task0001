@@ -1,0 +1,123 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.content {
+	width: 980px;
+	margin: 100px auto 50px;
+}
+.left,
+.right {
+	width:486px;
+	border: 2px solid gray;
+	background-color: #fff;
+	float:left;
+	position: relative;
+}
+.left p{
+	font: 24px times black;
+	float:right;
+	clear:right;
+	margin-right: 80px;
+	margin-top: 200px;
+}
+.right p {
+	font: 14px times black;
+	margin-left: 40px;
+}
+.left-experience p {
+	margin-top: 236px;
+	margin-bottom: 100px;
+}
+
+.right1,
+.right2,
+.right3,
+.right4 {
+	margin-top: 160px;
+}
+.right1 p {
+	line-height: 170%;
+	width:350px;
+}
+.right3 p {
+	padding-bottom:50px;
+}
+.right4 p {
+	padding-bottom:50px;
+}
+.main {
+	position: relative;
+}
+.photo1 img{
+	width:160px;
+	height: 160px;
+	border-radius: 90px;
+	border: 10px solid gray;
+	position: absolute;
+	left: 400px;
+	top: -50px;
+}
+.photo2 img{
+	width:100px;
+	height: 100px;
+	border-radius: 54px;
+	border: 4px solid gray;
+	position: absolute;
+	left: 436px;
+	top: 280px;
+}
+.photo3 img{
+	width:100px;
+	height: 100px;
+	border-radius: 54px;
+	border: 4px solid gray;
+	position: absolute;
+	left: 436px;
+	top: 480px;
+}
+.photo4 img{
+	width:100px;
+	height: 100px;
+	border-radius: 54px;
+	border: 4px solid gray;
+	position: absolute;
+	left: 436px;
+	top: 750px;
+}
+.year1 p{
+	background-color: #fff;
+	padding:4px;
+	border-radius: 8px;
+	border: 4px solid gray;
+	position: absolute;
+	left:466px;
+	top: 615px;
+}
+.year2 p{
+	background-color: #fff;
+	padding:4px;
+	border-radius: 8px;
+	border: 4px solid gray;
+	position: absolute;
+	left:466px;
+	top: 680px;
+}
+.year3 p{
+	background-color: #fff;
+	padding:4px;
+	border-radius: 8px;
+	border: 4px solid gray;
+	position: absolute;
+	left:466px;
+	top: 905px;
+}
+.year4 p{
+	background-color: #fff;
+	padding:4px;
+	border-radius: 8px;
+	border: 4px solid gray;
+	position: absolute;
+	left:466px;
+	top: 970px;
+}
