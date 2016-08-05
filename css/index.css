@@ -1,0 +1,83 @@
+.container img {
+	width: 100%;
+	vertical-align: bottom;/*vertical-align与line-height默认值有影响*/
+}
+.banner-content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-text {
+	width: 380px;
+	padding: 10px 10px 30px;/*width是div内容宽度，如果有padding，则总宽度增加*/
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+.banner-text h3 {
+	float: right;
+	font-size: 14px;
+}
+.banner-text p {
+	font-size: 12px;
+	padding-top: 12px;
+	text-indent: 2em;
+	line-height: 150%;
+	clear: right;
+}
+.pic-group {
+	width: 980px;
+	margin: 10px auto 0;
+}
+.pic-group td {
+	width: 320px;
+	background-color: #fff;
+	vertical-align: top;
+}
+.pic-group img {
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 15px;
+}
+.pic-group p {
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 170%;
+	padding: 0 30px 25px;
+}
+.pic-group .gap {
+	background-color: #ddd;
+	width:10px;
+}
+.introduce {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 100px;
+	padding-bottom: 150px;
+}
+.introduce-photo img {
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.introduce-photo {
+	width:160px;
+	margin:0 auto;
+}
+.introduce-text {
+	width: 600px;
+	margin: 0 auto;
+}
+.introduce-text h3 {
+	font: 20px Century Gothic black;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.introduce-text p {
+	font: 14px Times black;
+	text-indent: 2em;
+	line-height: 170%;
+}
