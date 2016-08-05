@@ -1,168 +1,154 @@
-
-
-.main{
-  width:980px;
-  height:auto;
-  margin:0 auto;
-  background-color: ;
+body {
+	background-color: #ddd;
 }
-.main .left{
-  width:660px;
-  height: inherit;
-  float:left;
-  margin-top:10px;
-  margin-left:-80px;/*这是为什么???????????????????????*/
-
+.main {
+	width: 980px;
+	margin: 20px auto 0;
 }
-.article-block{
-  width:600px;/*指内容宽度，不包含padding border margin*/
-  margin-right:10px;/*margin不继承内容的背景色*/
-  margin-bottom:10px;
-  height:400px;
-  line-height:150%;
-  padding:25px;/*padding继承内容的背景色*/
-  background-color:white;
-  position:relative;
+.left {
+	width: 710px;
+	float: left;
 }
-.article-tags{
-  position:absolute;
-
-  left:-52px;
+.right {
+	width: 260px;
+	float: right;
 }
-.article-tags ul{
-  list-style-type: none;
-  text-align:center;
-  padding:7px 0;
-  margin:10px 0;
+.text-container {
+	width: 670px;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 10px; 
+	position: relative;
 }
-.article-tags li{
-  width:50px;
-  height:40px;
-  padding-top:10px;
-  margin:0 auto;
-  font-family:arial;
-  color:white;
-  background-color:red;
-  border:1px solid gray;
+.text-tag li {
+	width: 50px;
+	height: 27px;
+	color: #fff;
+	font-family: arial;
+	background-color: #a660b7;
+	text-align: center;
+	padding-top: 13px;
 }
-.article-block h1{
-  font-size: 16px;
-  color:#009999;
-  margin-bottom:20px;
+.text-tag li:first-child {
+	background-color: #522a5c;
 }
-.article-block h2{
-  font-size: 12px;
-  color:#5ED2B8;
-  margin-bottom:20px;
+.text-tag {
+	position: absolute;
+	left: -50px;
+	top: 20px;
 }
-.article-block p{
-  font-size:12px;
-  text-indent: 2em;
+.text-container h1 {
+	font-size: 16px;
+	margin-bottom: 10px;
 }
-.article-block .date{
-  position:absolute;
-  right:25px;
-  bottom:0;
+.text-container h3 {
+	font-size: 12px;
+	color:#666;
+	margin-bottom: 20px;
 }
-.page-number{
-  text-align:center;
-  font-size: 0;
-    letter-spacing: -4px;
-    word-spacing: -4px;
+.text-container p {
+	line-height: 170%;
+	font-size: 12px;
+	text-indent: 2em;
 }
-.page-number ul{
-  list-style-type: none;
-  margin-bottom:100px;
+.sig {
+	position: relative;
+	right:-448px;
 }
-.page-number li{
-      margin: 0 7.5px;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    letter-spacing: normal;
-    word-spacing: normal;
-    font-size: 12px;
+.sig p {
+	color:#666;
 }
-.page-number a{
-      display: block;
-    color: #000;
-    padding: 15px;
-    background-color: #fff;
-    font-family: "Microsoft Yahei";
+.pages {
+	width: 710px;
+	text-align: center;
+	margin-bottom: 100px;
 }
-.page-number a:hover{
-  color:white;
-  background-color:red;
+.pages li {
+	display: inline-block;
+}
+.pages a {
+	display: block;
+	color: #000;
+	font-family: arial;
+	padding: 15px;
+	background-color: #fff;	
+}
+.pages a:hover {
+	color: #fff;
+    background-color: #a660b7;
 }
 
-.right{
-  width:320px;
-  height:auto;
-  height:inherit;
-  float:left;
-  margin:10px auto;
+.search {
+	width: 220px;
+	height: 40px;
+	padding: 20px;
+	background-color: #fff;
 }
-.search{
-  width:320px;
-  height:80px;
-  background-color: white;
+.search input {
+	width: 166px;
+	height: 36px;
 }
-.search input{
-  height:40px;
-  padding:0;
-  margin:0;
+.search button {
+	width: 50px;
+	height: 40px;
 }
-.search button{
-  height:40px;
-  width:40px;
-  padding:0;
-  margin:0;
+.search .go,
+.search .input {
+	float: left;
 }
-.catalog{
-  margin:10px 0;
+.catalog {
+	margin: 10px 0;
 }
-.catalog ul{
-  list-style-type: none;
-  padding:0;
-  margin:0;
+.catalog li {
+	width: 256px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left: 3px solid #ccc;
+	border-right: 1px solid #fff;
 }
-.catalog a{
-  text-decoration: none;
-  padding:0 0 0 20px;
-  font-family: arial;
+.catalog a {
+	display: block;
+	padding: 20px;
+	color: #000;
+	font-family: arial;
 }
-.catalog li{
-  width:317px;
-  background-color: white;
-  padding:10px 0 ;
-  border-top:1px solid gray;
-  border-left:3px solid gray;
-}
-.catalog li:hover{
-  border-left-color:red;
-}
-.calender{
-  width:320px;
-  margin:0 auto;
-  background-color: white;
-}
-.calender table{
-  font-size: 25px;
-  text-align: center;
-  margin:0 auto;
-}
-.calender td{
-  border-bottom:1px solid gray;
-  padding:5px;
+.catalog li:hover {
+	border-left: 3px solid #522a5c;
 }
 
-.blog-tags{
-  width:320px;
-  background-color: white;
-  overflow: hidden;
-  margin-top:10px;
+.tags {
+	width: 240px;
+	padding:10px;
+	background-color: #fff;
+	font-family: arial;
 }
-.blog-tags p{
-  float:left;
-  padding:5px;
+.tags h1 {
+	font-family: arial;/*写在一起用font不行?*/
+	color: #888;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.tags p {
+	color: #522a5c;
+	float: left;
+	padding:5px;
+}
+.t1,
+.t5 {
+	font-size: 30px; 
+}
+.t2,
+.t8,
+.t12,
+.t13 {
+	font-size: 20px;
+}
+.t3,
+.t4,
+.t6,
+.t7,
+.t9,
+.t10,
+.t11 {
+	font-size: 12px;
 }
